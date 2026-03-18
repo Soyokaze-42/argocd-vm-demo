@@ -2,6 +2,7 @@ apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   name: vm
+  namespace: rnichols-vms
   labels:
     app: vms
   annotations:
