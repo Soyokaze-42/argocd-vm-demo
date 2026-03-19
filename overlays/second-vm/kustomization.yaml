@@ -7,6 +7,9 @@ patches:
   - path: cores.yaml
     target:
       kind: VirtualMachine
+  - path: disk.yaml
+    target:
+      kind: VirtualMachine
 
 resources:
   - ../../base/
