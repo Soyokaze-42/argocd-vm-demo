@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namePrefix: third-
+
+patches:
+  - path: cores.yaml
+    target:
+      kind: VirtualMachine
+  - path: disk.yaml
+    target:
+      kind: VirtualMachine
+
+resources:
+  - ../../base/

@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - overlays/first-vm/
   - overlays/second-vm/
+  - overlays/third-vm/
