@@ -1,6 +1,0 @@
-- op: replace
-  path: /spec/template/spec/volumes/0/dataVolume/name
-  value: third-vm-rootdisk
-- op: replace
-  path: /spec/dataVolumeTemplates/0/metadata/name
-  value: third-vm-rootdisk
