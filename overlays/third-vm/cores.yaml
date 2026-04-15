@@ -1,0 +1,3 @@
+- op: replace
+  path: /spec/template/spec/domain/cpu/cores
+  value: 4
